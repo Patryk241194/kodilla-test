@@ -23,6 +23,10 @@ public class Book {
         this.price = price; 
     }
         
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String getCategory() {
         return category;
