@@ -19,6 +19,10 @@ public class Book {
         return price;
     }
 
+    public void setPrice(double price) {
+        this.price = price; 
+    }
+        
     @Override
     public String getCategory() {
         return category;
