@@ -22,6 +22,10 @@ public class Book {
     public void setPrice(double price) {
         this.price = price; 
     }
+    
+    public void setCategory(String category) {
+        this.category = category;
+    }
         
     public void setName(String name) {
         this.name = name;
